@@ -21,9 +21,7 @@ build_search_index = false
 
 # The taxonomies to be rendered for the site and their configuration.
 taxonomies = [
-    # You can enable/disable RSS
-    {name = "tags", rss = true},
-    {category = "categories", rss = true}
+  {name = "tags", feed = true}, # each tag will have its own feed
 ]
 
 [markdown]
